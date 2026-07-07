@@ -1,0 +1,10 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^$ public/ [L]
+</IfModule>
+
+<FilesMatch "^(\.env|composer\.(json|lock)|CODEX_BUILD_PROMPT\.md)$">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,566 @@
+{
+    "Elastic Cloud Server": {
+        "code": "ECS",
+        "name": "Elastic Cloud Server",
+        "short_description": "Elastic Cloud Server provides scalable, secure, and on-demand cloud computing resources for running applications and workloads on Huawei Cloud.",
+        "definition": "Elastic Cloud Server is a cloud-based virtual server service that allows customers to provision compute resources such as vCPU, memory, operating system, storage, and network connectivity based on business requirements.",
+        "details": [
+            "Elastic Cloud Server supports flexible compute configurations for enterprise applications, web platforms, development environments, and production workloads.",
+            "It integrates with Huawei Cloud networking, storage, security, monitoring, and backup services.",
+            "Customers can scale compute capacity based on workload requirements and business growth."
+        ],
+        "key_benefits": [
+            "Flexible compute specifications",
+            "On-demand provisioning",
+            "Integration with VPC, EVS, EIP, security groups, and monitoring",
+            "Support for Linux and Windows operating systems",
+            "Suitable for production, development, testing, and migration workloads"
+        ],
+        "typical_use_cases": [
+            "Web application hosting",
+            "Enterprise application servers",
+            "Development and testing environments",
+            "Cloud migration workloads",
+            "Backend compute layer for business systems"
+        ],
+        "proposal_positioning": "Elastic Cloud Server is proposed as the primary compute layer for hosting the customer's workloads on Huawei Cloud.",
+        "diagram": "assets/diagrams/elastic-cloud-server.png",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/ecs.html"
+    },
+    "Elastic Volume Service": {
+        "code": "EVS",
+        "name": "Elastic Volume Service",
+        "short_description": "Elastic Volume Service provides persistent block storage for Huawei Cloud compute workloads.",
+        "definition": "Elastic Volume Service is a scalable block storage service that can be attached to cloud servers to provide persistent storage for operating systems, applications, and data.",
+        "details": [
+            "Elastic Volume Service provides reliable block-level storage for Elastic Cloud Server instances.",
+            "It supports different disk types and performance options based on workload requirements.",
+            "EVS volumes can be used for system disks, data disks, databases, enterprise applications, and file storage workloads."
+        ],
+        "key_benefits": [
+            "Persistent block storage",
+            "Multiple disk performance options",
+            "Integration with Elastic Cloud Server",
+            "Supports snapshots and backup strategies",
+            "Scalable storage capacity"
+        ],
+        "typical_use_cases": [
+            "Operating system disks",
+            "Application data disks",
+            "Database storage",
+            "Enterprise workload storage",
+            "Storage expansion for cloud servers"
+        ],
+        "proposal_positioning": "Elastic Volume Service is proposed as the persistent storage layer for the customer's cloud servers and application workloads.",
+        "diagram": "assets/diagrams/elastic-volume-service.png",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/evs.html"
+    },
+    "Virtual Private Cloud": {
+        "code": "VPC",
+        "name": "Virtual Private Cloud",
+        "short_description": "Virtual Private Cloud provides an isolated and configurable network environment on Huawei Cloud.",
+        "definition": "Virtual Private Cloud allows customers to create a logically isolated cloud network where they can define subnets, IP address ranges, routing, security groups, and connectivity options.",
+        "details": [
+            "Virtual Private Cloud provides the foundational network layer for Huawei Cloud resources.",
+            "It enables secure communication between cloud resources and can be connected to on-premises environments when required.",
+            "VPC works with subnets, route tables, security groups, elastic IP addresses, and other networking components."
+        ],
+        "key_benefits": [
+            "Logical network isolation",
+            "Customizable IP address ranges and subnets",
+            "Security group integration",
+            "Routing control",
+            "Supports secure cloud architecture design"
+        ],
+        "typical_use_cases": [
+            "Private cloud networking",
+            "Application network segmentation",
+            "Secure workload isolation",
+            "Hybrid cloud connectivity",
+            "Multi-tier application architecture"
+        ],
+        "proposal_positioning": "Virtual Private Cloud is proposed as the secure and isolated network foundation for the customer's Huawei Cloud environment.",
+        "diagram": "assets/diagrams/virtual-private-cloud.png",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/vpc.html"
+    },
+    "Elastic IP": {
+        "code": "EIP",
+        "name": "Elastic IP",
+        "short_description": "Elastic IP provides static public IP address connectivity for cloud resources.",
+        "definition": "Elastic IP is a public IP address service that enables cloud resources such as Elastic Cloud Server instances to communicate with the internet.",
+        "details": [
+            "Elastic IP can be associated with supported Huawei Cloud resources to provide public network access.",
+            "It is commonly used for internet-facing applications, remote administration, public APIs, and external service access.",
+            "Elastic IP works with bandwidth options and network security controls."
+        ],
+        "key_benefits": [
+            "Static public IP address",
+            "Internet access for cloud resources",
+            "Flexible association and release",
+            "Supports public-facing workloads",
+            "Works with security groups and network controls"
+        ],
+        "typical_use_cases": [
+            "Public web servers",
+            "Remote access to cloud servers",
+            "Public API endpoints",
+            "Internet-facing applications",
+            "External service connectivity"
+        ],
+        "proposal_positioning": "Elastic IP is proposed to provide controlled internet connectivity for selected Huawei Cloud resources.",
+        "diagram": "assets/diagrams/elastic-ip.png",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/eip.html"
+    },
+    "Object Storage Service": {
+        "code": "OBS",
+        "name": "Object Storage Service",
+        "short_description": "Object Storage Service provides scalable, durable, and secure object storage for unstructured data.",
+        "definition": "Object Storage Service is a cloud storage service used to store objects such as files, images, backups, logs, documents, and application data.",
+        "details": [
+            "Object Storage Service is suitable for storing large volumes of unstructured data.",
+            "It supports secure access control, lifecycle management, and scalable storage capacity.",
+            "OBS can be used by applications, backup systems, analytics platforms, and content delivery workflows."
+        ],
+        "key_benefits": [
+            "Highly scalable object storage",
+            "Durable data storage",
+            "Access control and security features",
+            "Suitable for backup and archive use cases",
+            "Supports application data and content storage"
+        ],
+        "typical_use_cases": [
+            "Backup storage",
+            "Log storage",
+            "Document storage",
+            "Media and image storage",
+            "Application object storage"
+        ],
+        "proposal_positioning": "Object Storage Service is proposed as the scalable object storage layer for files, backups, logs, and unstructured data.",
+        "diagram": "assets/diagrams/object-storage-service.png",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/obs.html"
+    },
+    "Relational Database Service": {
+        "code": "RDS",
+        "name": "Relational Database Service",
+        "short_description": "Relational Database Service provides managed relational database capabilities on Huawei Cloud.",
+        "definition": "Relational Database Service is a managed database service that helps customers deploy, operate, and maintain relational databases with reduced administrative overhead.",
+        "details": [
+            "Relational Database Service supports managed database deployment and operation.",
+            "It can reduce the effort required for database provisioning, maintenance, backup, and monitoring.",
+            "RDS is suitable for enterprise applications, web platforms, transactional systems, and business applications."
+        ],
+        "key_benefits": [
+            "Managed relational database service",
+            "Simplified database operations",
+            "Backup and monitoring capabilities",
+            "Suitable for enterprise application workloads",
+            "Reduces infrastructure administration overhead"
+        ],
+        "typical_use_cases": [
+            "Enterprise application databases",
+            "Web application databases",
+            "Transactional systems",
+            "Business platforms",
+            "Application backend databases"
+        ],
+        "proposal_positioning": "Relational Database Service is proposed as the managed database layer for application and business data workloads.",
+        "diagram": "assets/diagrams/relational-database-service.png",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/mysql.html"
+    },
+    "Scalable File Service Turbo": {
+        "code": "SFS Turbo",
+        "name": "Scalable File Service Turbo",
+        "short_description": "Scalable File Service Turbo provides high-performance, shared file storage for enterprise workloads on Huawei Cloud.",
+        "definition": "Scalable File Service Turbo is a managed, high-performance file storage service that provides shared file access for cloud servers and applications.",
+        "details": [
+            "SFS Turbo provides scalable shared file storage with predictable performance.",
+            "It supports workloads that require concurrent file access from multiple compute instances.",
+            "The service integrates with Huawei Cloud compute and networking services."
+        ],
+        "key_benefits": [
+            "Managed shared file storage",
+            "High-performance file access",
+            "Concurrent access from multiple cloud servers",
+            "Scalable capacity",
+            "Reduced file-system administration"
+        ],
+        "typical_use_cases": [
+            "Enterprise shared file storage",
+            "Content repositories",
+            "Application shared data",
+            "High-performance computing workloads",
+            "Media processing workflows"
+        ],
+        "proposal_positioning": "Scalable File Service Turbo is proposed as the managed shared file storage layer for workloads requiring reliable, high-performance file access.",
+        "diagram": "assets/diagrams/scalable-file-service-turbo.png",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/sfsturbo.html"
+    },
+    "Cloud Backup and Recovery": {
+        "code": "CBR",
+        "name": "Cloud Backup and Recovery",
+        "short_description": "Centralized backup and recovery for cloud and on-premises resources.",
+        "definition": "Centralized backup and recovery for cloud and on-premises resources.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Cloud Backup and Recovery is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/cbr.html"
+    },
+    "Elastic Load Balance": {
+        "code": "ELB",
+        "name": "Elastic Load Balance",
+        "short_description": "Traffic distribution across backend servers for scalable, highly available applications.",
+        "definition": "Traffic distribution across backend servers for scalable, highly available applications.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Elastic Load Balance is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/elb.html"
+    },
+    "NAT Gateway": {
+        "code": "NAT",
+        "name": "NAT Gateway",
+        "short_description": "Managed network address translation for cloud and on-premises servers.",
+        "definition": "Managed network address translation for cloud and on-premises servers.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "NAT Gateway is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/nat.html"
+    },
+    "Virtual Private Network": {
+        "code": "VPN",
+        "name": "Virtual Private Network",
+        "short_description": "Secure IPsec connectivity between local data centers and Huawei Cloud.",
+        "definition": "Secure IPsec connectivity between local data centers and Huawei Cloud.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Virtual Private Network is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/vpn.html"
+    },
+    "RDS for MySQL": {
+        "code": "RDS for MySQL",
+        "name": "RDS for MySQL",
+        "short_description": "A fully managed, MySQL-compatible relational database service.",
+        "definition": "A fully managed, MySQL-compatible relational database service.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "RDS for MySQL is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/mysql.html"
+    },
+    "GaussDB": {
+        "code": "GaussDB",
+        "name": "GaussDB",
+        "short_description": "An enterprise-grade distributed relational database for critical workloads.",
+        "definition": "An enterprise-grade distributed relational database for critical workloads.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "GaussDB is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/gaussdb.html"
+    },
+    "Document Database Service": {
+        "code": "DDS",
+        "name": "Document Database Service",
+        "short_description": "A scalable managed document database service.",
+        "definition": "A scalable managed document database service.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Document Database Service is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/dds.html"
+    },
+    "Distributed Cache Service": {
+        "code": "DCS",
+        "name": "Distributed Cache Service",
+        "short_description": "A managed in-memory caching service compatible with Redis.",
+        "definition": "A managed in-memory caching service compatible with Redis.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Distributed Cache Service is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/dcs.html"
+    },
+    "Data Replication Service": {
+        "code": "DRS",
+        "name": "Data Replication Service",
+        "short_description": "Online database migration and synchronization with minimal downtime.",
+        "definition": "Online database migration and synchronization with minimal downtime.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Data Replication Service is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/drs.html"
+    },
+    "Cloud Container Engine": {
+        "code": "CCE",
+        "name": "Cloud Container Engine",
+        "short_description": "An enterprise managed Kubernetes service for containerized applications.",
+        "definition": "An enterprise managed Kubernetes service for containerized applications.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Cloud Container Engine is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/cce.html"
+    },
+    "Web Application Firewall": {
+        "code": "WAF",
+        "name": "Web Application Firewall",
+        "short_description": "Managed protection for websites and web applications against common attacks.",
+        "definition": "Managed protection for websites and web applications against common attacks.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Web Application Firewall is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/waf.html"
+    },
+    "Host Security Service": {
+        "code": "HSS",
+        "name": "Host Security Service",
+        "short_description": "Cloud host protection for asset management, intrusion prevention, and vulnerability management.",
+        "definition": "Cloud host protection for asset management, intrusion prevention, and vulnerability management.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Host Security Service is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/hss.html"
+    },
+    "Identity and Access Management": {
+        "code": "IAM",
+        "name": "Identity and Access Management",
+        "short_description": "Identity, permission, and access control for cloud services and resources.",
+        "definition": "Identity, permission, and access control for cloud services and resources.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Identity and Access Management is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/iam.html"
+    },
+    "Cloud Eye": {
+        "code": "CES",
+        "name": "Cloud Eye",
+        "short_description": "Monitoring, metrics, and alarms for cloud resources and applications.",
+        "definition": "Monitoring, metrics, and alarms for cloud resources and applications.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Cloud Eye is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/ces.html"
+    },
+    "Content Delivery Network": {
+        "code": "CDN",
+        "name": "Content Delivery Network",
+        "short_description": "Distributed content delivery for fast and scalable user access.",
+        "definition": "Distributed content delivery for fast and scalable user access.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Content Delivery Network is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/cdn.html"
+    },
+    "Cloud Firewall": {
+        "code": "CFW",
+        "name": "Cloud Firewall",
+        "short_description": "Cloud-native traffic control and intrusion prevention across network boundaries.",
+        "definition": "Cloud-native traffic control and intrusion prevention across network boundaries.",
+        "details": [
+            "The service is managed through Huawei Cloud and integrates with related cloud resources.",
+            "Configuration and capacity can be selected according to solution and workload requirements."
+        ],
+        "key_benefits": [
+            "Managed Huawei Cloud service",
+            "Integration with the wider Huawei Cloud platform",
+            "Flexible configuration aligned to workload requirements"
+        ],
+        "typical_use_cases": [
+            "Enterprise cloud environments",
+            "Production application workloads",
+            "Cloud modernization and migration initiatives"
+        ],
+        "proposal_positioning": "Cloud Firewall is included as part of the proposed Huawei Cloud solution.",
+        "diagram": "",
+        "link": "https://www.huaweicloud.com/intl/en-us/product/cfw.html"
+    }
+}
