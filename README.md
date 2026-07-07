@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Huawei Cloud Commercial Proposal Generator
 
 A PHP 8.1+ application that combines customer inputs, an Excel quote, an approved service catalog, and a branded Word template to produce a downloadable `.docx` commercial proposal.
@@ -102,3 +103,7 @@ Open `http://localhost:8080`.
 - The application has no API keys, Word automation, LibreOffice, Node.js, Python, worker, login, PDF, or LLM dependency.
 
 The download link is session-bound, single-use, constrained to generated `.docx` filenames, and does not expose server paths.
+=======
+# HWC-Proposal-Generator
+Turn a cloud quote into a client-ready proposal. Upload your Huawei Cloud quote, add the customer context, and generate a professionally structured Word document in moments.
+>>>>>>> e59245430d75b72320acf8c4b8723b6f11126796
